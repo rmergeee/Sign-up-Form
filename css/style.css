@@ -1,0 +1,25 @@
+@import url(reset.css);
+@import url(../fonts/norse-bold/stylesheet.css);
+
+:root {
+    
+}
+
+body {
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-section {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsive-image {
+    height: 100vh;
+}
