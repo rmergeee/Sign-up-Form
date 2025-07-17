@@ -2,10 +2,9 @@
 @import url(../fonts/norse-bold/stylesheet.css);
 
 :root {
-    
-}
-
-body {
+    font-size: 16px;
+    --btn-bg-color: #596D48;
+    --form-border-color: #E5E7EB;
 }
 
 main {
@@ -16,10 +15,40 @@ main {
 .sign-up-section {
     flex-grow: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+fieldset {
+    border: none;
+}
+
 .responsive-image {
     height: 100vh;
+}
+
+.img-wrapper {
+    background-image: url(../imgs/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    width: 35%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.odin-logo {
+    width: 110px;
+    margin: 1rem 0;
+}
+
+.odin-banner {
+    display: flex;
+    font-family: "norsebold", sans-serif;
+    color: white;
+    background-color: rgb(0 0 0 / 50%); /* 50% transparent */
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
