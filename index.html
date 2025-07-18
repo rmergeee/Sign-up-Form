@@ -15,43 +15,48 @@
                 <img class="odin-logo" src="imgs/odin-lined.png" alt="Odin logo">
                 ODIN
             </div>
-            <p class="author-photo"><a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Photo by Halie West</a></p>
+            <p class="author-photo"><a
+                    href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Photo by
+                    Halie West</a></p>
         </div>
         <section class="sign-up-section">
-            <h1 class="first-notice">This is not a real online sercive! You know you need something like this in your
-                life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h1>
-            <h1 class="second-notice"><em>You know you want to.</em></h1>
+            <div class="notice">
+                <h1 class="first-notice">This is not a real online sercive! You know you need something like this in
+                    your
+                    life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h1>
+                <h1 class="second-notice"><em>You know you want to.</em></h1>
+            </div>
             <form action="" post>
                 <fieldset>
                     <div class="top-forms">
                         <h2>Let's do this!</h2>
                         <div class="first-name-block">
                             <label for="first-name">First Name</label>
-                            <input type="text" name="first-name" id="first-name">
+                            <input type="text" name="first-name" id="first-name" required>
                         </div>
                         <div class="last-name-block">
                             <label for="last-name">Last Name</label>
-                            <input type="text" name="last-name" id="last-name">
+                            <input type="text" name="last-name" id="last-name" required>
                         </div>
                         <div class="email-block">
                             <label for="user-email">E-mail</label>
-                            <input type="text" name="email" id="user-email">
+                            <input type="email" name="email" id="user-email" required>
                         </div>
                         <div class="phone-num-block">
                             <label for="phone-number">Phone Number</label>
-                            <input type="text" name="phone-number" id="phone-number">
+                            <input type="number" name="phone-number" id="phone-number">
                         </div>
                         <div class="pass-block">
                             <label for="password">Password</label>
-                            <input type="text" name="password" id="password">
+                            <input type="password" name="password" id="password" required>
                         </div>
                         <div class="confirm-pass-block">
                             <label for="confirm-pass">Confirm Password</label>
-                            <input type="text" name="confirm-pass" id="confirm-pass">
+                            <input type="password" name="confirm-pass" id="confirm-pass" required>
                         </div>
                     </div>
 
-                    <button type="submit">Create Account</button>
+                    <button class="create-account" type="submit">Create Account</button>
                 </fieldset>
             </form>
         </section>
